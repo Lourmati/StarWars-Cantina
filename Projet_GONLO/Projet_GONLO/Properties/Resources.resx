@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cathar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cathar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="humans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\humans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwoopBikeRacing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwoopBikeRacing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarteMinus4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte-4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="houjix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\houjix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwoopBikeRacing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwoopBikeRacing2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slippery_Slopes_Cantina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slippery_Slopes_Cantina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chiss_EtU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chiss_EtU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghhhk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\ghhhk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlusMinus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlusMinus6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueSteelFaded2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueSteelFaded2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueSteelFaded21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueSteelFaded2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlusMinus5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="def1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\def1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zabrak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zabrak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="houjix1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\houjix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice_six_faces_two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice-six-faces-two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pazaakBackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pazaakBackground2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ngok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\Ngok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grimtaash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\grimtaash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarteMinus6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte-6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice_six_faces_five" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice-six-faces-five.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarteMinus5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte-5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klorslaug1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\klorslaug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlusMinus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarsBackground3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarsBackground3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlusMinus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarteMinus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte-2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlusMinus4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarteMinus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte-1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghhhk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\ghhhk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghhhk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\ghhhk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21021955" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21021955.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pazaakEmptyBoard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pazaakEmptyBoard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kintan_Strider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\Kintan_Strider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueSteelFaded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueSteelFaded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backButtonSteel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backButtonSteel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlus4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klorslaug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\klorslaug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice_six_faces_three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice-six-faces-three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pazaakBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pazaakBackground1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="holochess-arkit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\holochess-arkit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pazaakEmptyBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pazaakEmptyBoard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghhhk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\ghhhk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backButton1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice_six_faces_four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice-six-faces-four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarteMinus3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte-3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pazaakEmptyBoard11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pazaakEmptyBoard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tumblr_oeofc6OfEn1vfq12to6_500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_oeofc6OfEn1vfq12to6_500.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mandalorian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mandalorian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sithPureBlood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sithPureBlood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghhhk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\ghhhk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutonSteelDejarik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boutonSteelDejarik.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrowsUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlus6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mantellian_Savrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\Mantellian_Savrip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_wars_resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_wars_resort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backButtongold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backButtongold.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice_six_faces_six" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice-six-faces-six.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CartePlus5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte+5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carte9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carte9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice_six_faces_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice-six-faces-one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monnok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monsters\Monnok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarsBackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarsBackground.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarsBackground2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarsBackground.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarsBackground1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twilekCouple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twilekCouple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pazaakBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pazaakBoard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backButtonBLuesteel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backButtonBLuesteel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="210219551" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21021955.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_card_Pazaak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cards\back_card_Pazaak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cantina_Band" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cantina_Band.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dejarik_Cantina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dejarik_Cantina.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pazzak_Cantina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pazzak_Cantina.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

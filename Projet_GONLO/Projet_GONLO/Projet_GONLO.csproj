@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28903FB2-F8C8-4C2A-BE72-0B22EE0A92C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projet_GONLO</RootNamespace>
+    <AssemblyName>Projet_GONLO</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>starwars_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ButtonCircle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User Control\ButtonEllipse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Pazaak\Cards.cs" />
+    <Compile Include="Classes\Pazaak\CircularPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Charac Creator\CreationPerso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charac Creator\CreationPerso.Designer.cs">
+      <DependentUpon>CreationPerso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dejarik\Dejarik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dejarik\Dejarik.Designer.cs">
+      <DependentUpon>Dejarik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Other Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Other Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Charac Creator\GeneratedNamesList.cs" />
+    <Compile Include="Forms\Other Forms\LoadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Other Forms\LoadForm.Designer.cs">
+      <DependentUpon>LoadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dejarik\MenuDejarik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dejarik\MenuDejarik.Designer.cs">
+      <DependentUpon>MenuDejarik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Dejarik\Monster.cs" />
+    <Compile Include="Forms\Pazaak\PazaakCardsSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pazaak\PazaakCardsSelector.Designer.cs">
+      <DependentUpon>PazaakCardsSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Charac Creator\Player.cs" />
+    <Compile Include="Forms\Pazaak\Pazaak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pazaak\Pazaak.Designer.cs">
+      <DependentUpon>Pazaak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Control\RoundPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Other Forms\StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Other Forms\StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\textBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User Control\textBox.Designer.cs">
+      <DependentUpon>textBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Dejarik\Tile.cs" />
+    <EmbeddedResource Include="Forms\Charac Creator\CreationPerso.resx">
+      <DependentUpon>CreationPerso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dejarik\Dejarik.resx">
+      <DependentUpon>Dejarik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Other Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Other Forms\LoadForm.resx">
+      <DependentUpon>LoadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dejarik\MenuDejarik.resx">
+      <DependentUpon>MenuDejarik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pazaak\Pazaak.resx">
+      <DependentUpon>Pazaak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pazaak\PazaakCardsSelector.resx">
+      <DependentUpon>PazaakCardsSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Other Forms\StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\textBox.resx">
+      <DependentUpon>textBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Slippery_Slopes_Cantina.jpg" />
+    <Content Include="starwars_icon.ico" />
+    <None Include="Resources\StarsBackground3.png" />
+    <None Include="Resources\StarsBackground2.png" />
+    <None Include="Resources\201-2018253_sign-symbol-icons-in-svg-and-png-yellow.png" />
+    <None Include="Resources\arrows.png" />
+    <None Include="Resources\arrows %281%29.png" />
+    <None Include="Resources\atk.png" />
+    <None Include="Resources\atk1.png" />
+    <None Include="Resources\21021955.jpg" />
+    <None Include="Resources\21021955.png" />
+    <Content Include="Resources\backButton.jpg" />
+    <None Include="Resources\zabrak.jpg" />
+    <None Include="Resources\twilekCouple.jpg" />
+    <None Include="Resources\SwoopBikeRacing2.jpg" />
+    <None Include="Resources\SwoopBikeRacing.jpg" />
+    <None Include="Resources\dice-six-faces-five.png" />
+    <None Include="Resources\dice-six-faces-four.png" />
+    <None Include="Resources\dice-six-faces-one.png" />
+    <None Include="Resources\dice-six-faces-six.png" />
+    <None Include="Resources\dice-six-faces-three.png" />
+    <None Include="Resources\dice-six-faces-two.png" />
+    <None Include="Resources\BlueSteelFaded.png" />
+    <None Include="Resources\BlueSteelFaded2.png" />
+    <None Include="Resources\cathar.png" />
+    <None Include="Resources\Chiss_EtU.png" />
+    <None Include="Resources\humans.png" />
+    <None Include="Resources\mandalorian.jpg" />
+    <None Include="Resources\sithPureBlood.png" />
+    <None Include="Resources\Carte+-1&amp;2.PNG" />
+    <None Include="Resources\Carte+1.PNG" />
+    <None Include="Resources\Carte+-1T.png" />
+    <None Include="Resources\Carte+2.PNG" />
+    <None Include="Resources\Carte+-2.png" />
+    <None Include="Resources\Carte+-3&amp;4.png" />
+    <None Include="Resources\Carte+3.PNG" />
+    <None Include="Resources\Carte+-3.png" />
+    <None Include="Resources\Carte+4.PNG" />
+    <None Include="Resources\Carte+-4.png" />
+    <None Include="Resources\Carte+-5&amp;6.png" />
+    <None Include="Resources\Carte+5.PNG" />
+    <None Include="Resources\Carte+-5.png" />
+    <None Include="Resources\Carte+6.PNG" />
+    <None Include="Resources\Carte+-6.png" />
+    <None Include="Resources\Carte1.png" />
+    <None Include="Resources\Carte-1.PNG" />
+    <None Include="Resources\Carte2.png" />
+    <None Include="Resources\Carte-2.PNG" />
+    <None Include="Resources\Carte3.png" />
+    <None Include="Resources\Carte-3.PNG" />
+    <None Include="Resources\Carte4.png" />
+    <None Include="Resources\Carte-4.PNG" />
+    <None Include="Resources\Carte5.png" />
+    <None Include="Resources\Carte-5.PNG" />
+    <None Include="Resources\Carte6.png" />
+    <None Include="Resources\Carte-6.PNG" />
+    <None Include="Resources\Carte7.png" />
+    <None Include="Resources\Carte8.png" />
+    <None Include="Resources\Carte9.png" />
+    <None Include="Resources\Carte10.png" />
+    <None Include="Resources\CarteD.png" />
+    <None Include="Resources\Carte+-1.png" />
+    <None Include="Resources\Monsters\ghhhk.png" />
+    <None Include="Resources\Monsters\houjix.png" />
+    <None Include="Resources\Monsters\Kintan_Strider.png" />
+    <None Include="Resources\Monsters\Ngok.png" />
+    <None Include="Resources\Monsters\klorslaug.png" />
+    <None Include="Resources\Monsters\grimtaash.png" />
+    <None Include="Resources\Monsters\Mantellian_Savrip.png" />
+    <None Include="Resources\Monsters\Monnok.png" />
+    <None Include="Resources\boutonSteelDejarik.JPG" />
+    <None Include="Resources\def.png" />
+    <None Include="Resources\def1.png" />
+    <None Include="Resources\Cards\back_card_Pazaak.png" />
+    <None Include="Resources\Cantina_Band.mp3" />
+    <None Include="Resources\Cantina_Band.wav" />
+    <None Include="Resources\Pazzak_Cantina.wav" />
+    <None Include="Resources\Dejarik_Cantina.wav" />
+    <Content Include="Resources\StarsBackground.PNG" />
+    <None Include="Resources\StarsBackground1.PNG" />
+    <None Include="Resources\holochess-arkit.jpg" />
+    <Content Include="Resources\interface.png" />
+    <Content Include="Resources\pazaakBackground.jpg" />
+    <None Include="Resources\star_wars_resort.jpg" />
+    <None Include="Resources\pazaakBoard.jpg" />
+    <None Include="Resources\pazaakEmptyBoard1.png" />
+    <None Include="Resources\pazaakEmptyBoard.png" />
+    <None Include="Resources\tumblr_oeofc6OfEn1vfq12to6_500.gif" />
+    <None Include="Resources\pazaakBackground2.jpg" />
+    <None Include="Resources\pazaakBackground1.jpg" />
+    <None Include="Resources\backButtonSteel.jpg" />
+    <None Include="Resources\backButtonBLuesteel.jpg" />
+    <None Include="Resources\backButtongold.jpg" />
+    <None Include="Resources\backButton1.jpg" />
+    <None Include="Resources\Slippery_Slopes_Cantina.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
